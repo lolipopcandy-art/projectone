@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS FORM 4</title>
+</head>
+<body>
+<form action="" method="post">
+<table align="center">
+  <tr>
+    <td>username</td>
+    <td><input type="text" name="txtuser" id="" placeholder="masukkan username"></td>
+  </tr>
+  <tr>
+    <td>password</td>
+    <td><input type="password" name="txtpass" id="" placeholder="minimal 10 karakter besti"
+      pattern="[A-Za-z0-9]{6,10}"></td>
+  </tr>
+  <tr>
+    <td>umur</td>
+    <td><input type="number" name="txtumur" id="" min="10" max="50"></td>
+  </tr>
+  <tr>
+    <td>jenis kelamin</td>
+    <td><input type="radio" name="txtjk" id="" value="laki-laki">laki-laki
+        <input type="radio" name="txtjk" id="" value="perempuan">perempuan
+      <input type="radio" name="txtjk" id="" checked value="alien">alien </td>
+  </tr>
+  <tr> 
+    <td>alamat</td>
+    <td><textarea name="txtalamat" id="" cols="30" rows="10" placeholder="masukkan alamat"></textarea></td>
+  </tr>
+  <tr>
+    <td>tanggal lahir</td>
+    <td><input type="date" name="txttgl" id=""></td>
+    </tr>
+    <tr>
+    <td>jurusan</td>
+    <td><select name="txtjurusan" id="">
+      <optgroup label="FTD">
+              <option value="TI">Teknik Informatika</option>
+      <option value="DKV">Desain Komunikasi Visual</option>
+      <option value="SK">Sistem Komputer</option>
+      </optgroup>
+      <optgroup label="FEB">
+              <option value="AK">Akuntansi</option>
+      <option value="MAN">Manajemen</option>
+      </option>
+      </optgroup>
+    </select></td>
+  </tr>
+  <tr>
+    <td></td>
+      <td><input type="submit" value="login" name="cmdlogin"><input type="reset" value="Batal" name="cmdbatal"></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
