@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROJECT5 AKUH CSS</title>
+  <link rel="stylesheet" href="manggil css5.css"> <!-- ini link eksternal prioritas ketiga sistem ini untuk pemanggilan style font sistem-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<style>
+  h1,h2,h3,h4,h5,h6{ text-align: center; font-family: 'courier new';} /* ini link internal prioritas kedua sistem */
+  p {text-align:center;}
+  * { color : hotpink;} /* ini namanya perintah universal yang dimana berpengaruh terhadap semua elemen */
+  #satu { background-color: green; font-size: 20px;} /* ini adalah perintah id yang dimana prioritasnya lebih tinggi dari perintah universal */
+  .dua { background-color: blue; font-size: 30px;} /* ini adalah perintah class yang dimana prioritasnya lebih tinggi dari perintah universal */
+  .tiga { font-family: 'Times New Roman', Times, serif;} /* ini adalah perintah class yang dimana prioritasnya lebih tinggi dari perintah universal */
+  #empat { font-family: 'Times New Roman', Times, serif;} /* ini adalah perintah id yang dimana prioritasnya lebih tinggi dari perintah universal */
+  p b {background-color: red;} /* ini adalah perintah selector yang dimana prioritasnya lebih tinggi dari perintah universal */
+  ul li i {font - size: 20px;} /* ini adalah perintah selector yang dimana prioritasnya lebih tinggi dari perintah universal */
+  p:hover {background-color: yellow;} /* ini adalah perintah selector yang dimana prioritasnya lebih tinggi dari perintah universal */
+  p::first-letter {font-family: monotype corsiva; 
+      font-size: 50 pt;} /* ini adalah perintah selector yang dimana prioritasnya lebih tinggi dari perintah universal */
+
+  .arab {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+  body {
+    background: url(https://img.artpal.com/659692/1142-25-5-20-14-49-49m.jpg) center no-repeat;
+    background-attachment: fixed;
+  }
+</style>
+<body>
+<h1 class="arab">في الواقع، الله هو الإله الوحيد في الكون</h1>
+<h1 class="arab">في الواقع، الله هو الإله الوحيد في الكون</h1>
+  <!-- yang dijalankan oleh perintah css terlebih dahulu adalah perintah yang di dalem text atau inline baru yang perintah internalnya atau style terus eksternalnya atau panggilannya -->
+  <!-- <h1><font face="Arial">selamat datang pake html</font></h1> -->
+  <h1 style="font-family:'arial black'; color: violet;">selamat datang tapi pake css</h1> <!-- ini adalah perintah inline css prioritas pertama saat dijalankan -->
+  <p><b>Lorem ipsum dolor sit amet</b> consectetur adipisicing elit. Voluptates maiores, labore ab, saepe excepturi minus laborum nam possimus culpa, consequuntur nostrum! Voluptatum sapiente iure laborum, velit alias vel nam tempora incidunt beatae itaque, facilis quaerat! Earum qui vel repudiandae molestias doloribus, aliquid dicta provident quisquam quasi mollitia cumque enim est.</p>
+  <h2 >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sed aspernatur a illum hic quas dolorum. Distinctio reiciendis sed veritatis suscipit atque, rem velit facere quis praesentium modi, nulla placeat repellat iure aperiam, corporis sapiente nisi dolorum. Ipsum cum maiores ipsam, possimus molestias similique provident sunt animi, totam doloribus neque suscipit sint reiciendis perspiciatis quo obcaecati in facilis ad debitis. Distinctio mollitia fugit tempora alias eum enim reprehenderit eius quae, quis magni quo unde culpa pariatur commodi totam? Consequuntur dicta voluptatibus voluptatem rem, enim ab! Exercitationem, harum neque. Sit non optio tenetur modi. Aspernatur temporibus, dolores minima accusantium quas maiores?</h2>
+  <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sed aspernatur a illum hic quas dolorum. Distinctio reiciendis sed veritatis suscipit atque, rem velit facere quis praesentium modi, nulla placeat repellat iure aperiam, corporis sapiente nisi dolorum. Ipsum cum maiores ipsam, possimus molestias similique provident sunt animi, totam doloribus neque suscipit sint reiciendis perspiciatis quo obcaecati in facilis ad debitis. Distinctio mollitia fugit tempora alias eum enim reprehenderit eius quae, quis magni quo unde culpa pariatur commodi totam? Consequuntur dicta voluptatibus voluptatem rem, enim ab! Exercitationem, harum neque. Sit non optio tenetur modi. Aspernatur temporibus, dolores minima accusantium quas maiores?</h3>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sed aspernatur a illum hic quas dolorum. Distinctio reiciendis sed veritatis suscipit atque, rem velit facere quis praesentium modi, nulla placeat repellat iure aperiam, corporis sapiente nisi dolorum. Ipsum cum maiores ipsam, possimus molestias similique provident sunt animi, totam doloribus neque suscipit sint reiciendis perspiciatis quo obcaecati in facilis ad debitis. Distinctio mollitia fugit tempora alias eum enim reprehenderit eius quae, quis magni quo unde culpa pariatur commodi totam? Consequuntur dicta voluptatibus voluptatem rem, enim ab! Exercitationem, harum neque. Sit non optio tenetur modi. Aspernatur temporibus, dolores minima accusantium quas maiores?</p>
+  <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos, voluptas vero corrupti quia veniam omnis fuga voluptatum provident amet. Explicabo earum laboriosam maiores sed alias asperiores nostrum id. Voluptas facere porro eveniet enim, ducimus ipsum itaque deserunt ut sunt commodi rem suscipit laudantium, perspiciatis necessitatibus doloremque vitae eligendi? Fuga.</b></p>
+  <p class="dua tiga">Ini adalah paragraf dengan kelas 'dua' Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta laborum nesciunt iste fuga quibusdam! Officiis cupiditate debitis nam quidem.</p>
+  <p id="satu">Ini adalah paragraf dengan id 'satu' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id reprehenderit consectetur dolor non ipsam, maxime repellendus animi debitis. Ad iusto, magnam consectetur tempora incidunt quos. Itaque cupiditate quibusdam corrupti labore omnis cum. Sunt, odit porro sit nulla obcaecati dolorem odio quas consectetur dignissimos, ullam at exercitationem ipsam fugit dolor repellendus.</p>
+  <p id="empat">Ini adalah paragraf dengan id 'empat' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+  <ul>
+    <li><i> satu Ini adalah list dengan selector</i></li>
+    <li><i> dua Ini adalah list dengan selector</i></li>
+    <li><i> tiga Ini adalah list dengan selector</i></li>
+  </ul>
+</body>
+</html>
