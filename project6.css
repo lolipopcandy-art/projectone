@@ -1,0 +1,23 @@
+.satu{
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+ padding: 10px; /*padding untuk mengatur jarak antara konten dan tepi elemen */
+border: 10pt double black ; /*border untuk membuat garis tepi */
+border-radius: 20px 10px; /*border-radius untuk membuat sudut melengkung */
+margin: 30px; /*margin untuk mengatur jarak antara elemen dengan elemen lain */
+overflow: auto; /*overflow untuk menampilkan scroll bar jika konten melebihi ukuran elemen */
+}
+
+.dua{
+  background-color: blue;
+  width:500px;
+  height:300px;
+  display:inline-block;
+}
+
+img{
+  width: 70%;
+  height: 70%;
+  float: left;
+}
