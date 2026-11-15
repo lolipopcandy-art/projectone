@@ -1,0 +1,13 @@
+.pink
+  { width: 300px; height: 300px; background-color: pink; }
+.gold
+  { width: 300px; height: 300px; background-color: gold;
+    position:fixed;
+  left: 0px; top: 0px; }
+  .blue
+  { width: 300px; height: 300px; background-color: blue;
+    position:absolute;
+  bottom: 50px; right: 30px; }
+  .container
+  { width: 80%; height: 1800px;position:relative;
+    border:10pt solid black; margin:0 auto; }
